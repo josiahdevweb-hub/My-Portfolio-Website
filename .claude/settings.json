@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf \"/c/Users/pc/Desktop/projects/My Portfolio Website/.git\" \"/c/Users/pc/Desktop/projects/My Portfolio Website/.next\" \"/c/Users/pc/Desktop/projects/My Portfolio Website/.claude\" \"/c/Users/pc/Desktop/projects/My Portfolio Website/.gitignore\" \"/c/Users/pc/Desktop/projects/My Portfolio Website/node_modules\")",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npx shadcn@latest add button card badge input textarea select separator sheet tabs -y)",
+      "PowerShell(Remove-Item -Recurse -Force \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\node_modules\" -Confirm:$false)",
+      "PowerShell(Remove-Item -Force \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\package-lock.json\" -Confirm:$false -ErrorAction SilentlyContinue)",
+      "PowerShell(cmd /c \"rmdir /s /q `\"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\node_modules`\"\")",
+      "PowerShell(try { Remove-Item -Recurse -Force \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\node_modules\" -ErrorAction Stop } catch { \"Already gone or error: $_\" })",
+      "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\sheet.tsx\" -Confirm:$false)",
+      "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\select.tsx\" -Confirm:$false)",
+      "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\separator.tsx\" -Confirm:$false)",
+      "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\tabs.tsx\" -Confirm:$false)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\pc\\Desktop\\projects\\portfolio-temp",
+      "C:\\Users\\pc\\Desktop\\projects\\My Portfolio Website\\.git",
+      "c:\\Users\\pc\\Desktop\\projects\\My Portfolio Website\\src\\app\\services"
+    ]
+  }
+}
