@@ -11,7 +11,9 @@
       "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\sheet.tsx\" -Confirm:$false)",
       "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\select.tsx\" -Confirm:$false)",
       "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\separator.tsx\" -Confirm:$false)",
-      "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\tabs.tsx\" -Confirm:$false)"
+      "PowerShell(Remove-Item \"c:\\\\Users\\\\pc\\\\Desktop\\\\projects\\\\My Portfolio Website\\\\src\\\\components\\\\ui\\\\tabs.tsx\" -Confirm:$false)",
+      "Bash(ls \"/c/Users/pc/package-lock.json\" 2>/dev/null && echo \"ROOT LOCKFILE EXISTS\" || echo \"no root lockfile\")",
+      "Read(//c/Users/pc/**)"
     ],
     "additionalDirectories": [
       "c:\\Users\\pc\\Desktop\\projects\\portfolio-temp",
