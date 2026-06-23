@@ -59,6 +59,7 @@ export default async function ServicePage({
             src={service.heroImg}
             alt={service.title}
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />
@@ -238,6 +239,7 @@ export default async function ServicePage({
                         src={project.img}
                         alt={project.title}
                         fill
+                        sizes="(max-width: 768px) 100vw, 33vw"
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/30 to-transparent" />

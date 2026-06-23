@@ -95,6 +95,7 @@ export default function AboutPage() {
                       src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
                       alt="Josiah Mwangi"
                       fill
+                      sizes="(max-width: 1024px) 100vw, 40vw"
                       className="object-cover"
                       priority
                     />

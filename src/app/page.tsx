@@ -223,6 +223,7 @@ export default function HomePage() {
                 src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
                 alt="Professional portrait"
                 fill
+                sizes="(max-width: 768px) 100vw, 300px"
                 className="object-cover"
                 priority
               />
@@ -233,6 +234,7 @@ export default function HomePage() {
                 src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&q=80"
                 alt="Working with client"
                 fill
+                sizes="(max-width: 768px) 100vw, 250px"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 via-transparent to-transparent" />
@@ -291,6 +293,7 @@ export default function HomePage() {
                         src={photo.src}
                         alt={photo.alt}
                         fill
+                        sizes="(max-width: 768px) 50vw, 25vw"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
@@ -357,6 +360,7 @@ export default function HomePage() {
                           src={service.img}
                           alt={service.title}
                           fill
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                           className="object-cover transition-transform duration-700 group-hover:scale-110"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/50 to-transparent" />
