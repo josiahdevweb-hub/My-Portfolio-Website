@@ -125,7 +125,7 @@ export default function PortfolioPage() {
 
       {/* Featured Project */}
       {featured && (
-        <section className="bg-navy-950 pt-8">
+        <section className="bg-navy-950/70 pt-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <ScrollReveal>
               <Card className="bg-navy-800/50 border-navy-700 overflow-hidden">
@@ -180,7 +180,7 @@ export default function PortfolioPage() {
       )}
 
       {/* Filter Tabs + Grid */}
-      <section className="py-16 bg-navy-950">
+      <section className="py-16 bg-navy-950/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-2 mb-12">
             {categories.map((cat) => (
@@ -243,7 +243,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* Stats */}
-      <section className="bg-navy-800 border-y border-navy-700">
+      <section className="bg-navy-800/70 border-y border-navy-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-navy-600">
             {stats.map((stat) => (

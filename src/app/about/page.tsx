@@ -84,7 +84,7 @@ export default function AboutPage() {
       </section>
 
       {/* Bio Section */}
-      <section className="py-24 bg-navy-950">
+      <section className="py-24 bg-navy-950/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-5 gap-12 items-start">
             <ScrollReveal className="lg:col-span-2" animation="slide-in-left">
@@ -161,7 +161,7 @@ export default function AboutPage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-24 bg-navy-900">
+      <section className="py-24 bg-navy-900/65">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <SectionHeader
@@ -198,7 +198,7 @@ export default function AboutPage() {
       </section>
 
       {/* Value Proposition */}
-      <section className="py-24 bg-navy-950">
+      <section className="py-24 bg-navy-950/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <SectionHeader

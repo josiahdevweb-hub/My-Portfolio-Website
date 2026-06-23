@@ -253,7 +253,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Stats ─── */}
-      <section className="bg-navy-800 border-y border-navy-700 relative overflow-hidden">
+      <section className="bg-navy-800/70 border-y border-navy-700 relative overflow-hidden">
         <div className="absolute inset-0 grain" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-navy-600">
@@ -265,7 +265,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Behind the Scenes — photo strip ─── */}
-      <section className="py-24 bg-navy-950 overflow-hidden">
+      <section className="py-24 bg-navy-950/70 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="max-w-xl mb-16">
@@ -309,7 +309,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Video Reel ─── */}
-      <section className="py-24 bg-navy-900 relative overflow-hidden grain">
+      <section className="py-24 bg-navy-900/65 relative overflow-hidden grain">
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="text-center mb-12">
@@ -333,7 +333,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Services — organic layout ─── */}
-      <section className="py-24 bg-navy-950">
+      <section className="py-24 bg-navy-950/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-16">
@@ -393,7 +393,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Testimonials — offset/organic ─── */}
-      <section className="py-24 bg-navy-900 relative overflow-hidden grain">
+      <section className="py-24 bg-navy-900/65 relative overflow-hidden grain">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="max-w-xl mb-16">
@@ -454,7 +454,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── CTA — personal touch ─── */}
-      <section className="py-24 bg-navy-950 relative overflow-hidden">
+      <section className="py-24 bg-navy-950/70 relative overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gold-500/3 rounded-full blur-3xl" />
         <div className="relative max-w-3xl mx-auto px-4 text-center">
           <ScrollReveal>

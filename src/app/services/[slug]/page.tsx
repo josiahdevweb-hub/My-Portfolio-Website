@@ -101,7 +101,7 @@ export default async function ServicePage({
       </section>
 
       {/* Intro */}
-      <section className="py-20 bg-navy-950">
+      <section className="py-20 bg-navy-950/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-5 gap-16 items-start">
             <ScrollReveal className="lg:col-span-3">
@@ -178,7 +178,7 @@ export default async function ServicePage({
       </section>
 
       {/* Process */}
-      <section className="py-20 bg-navy-900 relative overflow-hidden grain">
+      <section className="py-20 bg-navy-900/65 relative overflow-hidden grain">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <h2 className="text-2xl font-bold text-cream-100 font-[family-name:var(--font-geist-sans)] mb-3">
@@ -218,7 +218,7 @@ export default async function ServicePage({
       </section>
 
       {/* Previous Projects */}
-      <section className="py-20 bg-navy-950">
+      <section className="py-20 bg-navy-950/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <h2 className="text-2xl font-bold text-cream-100 font-[family-name:var(--font-geist-sans)] mb-3">
@@ -272,7 +272,7 @@ export default async function ServicePage({
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-navy-900 relative overflow-hidden">
+      <section className="py-20 bg-navy-900/65 relative overflow-hidden">
         <div className="absolute inset-0 shimmer-bg" />
         <div className="relative max-w-3xl mx-auto px-4 text-center">
           <ScrollReveal>
@@ -297,7 +297,7 @@ export default async function ServicePage({
       </section>
 
       {/* Prev/Next Navigation */}
-      <section className="bg-navy-950 border-t border-navy-800">
+      <section className="bg-navy-950/70 border-t border-navy-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 divide-x divide-navy-800">
             {prevService ? (

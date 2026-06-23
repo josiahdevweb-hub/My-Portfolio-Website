@@ -65,7 +65,7 @@
 }
 
 body {
-  background: linear-gradient(180deg, #0a1128 0%, #152042 30%, #1c2d56 50%, #2a3f6e 70%, #e8ecf4 90%, #ffffff 100%);
+  background: linear-gradient(180deg, #0a1128 0%, #0f1a36 20%, #1c2d56 40%, #4a6a9a 65%, #a0b8d8 85%, #dde8f2 95%, #ffffff 100%);
   background-attachment: fixed;
   min-height: 100vh;
   color: var(--foreground);
